@@ -1,0 +1,191 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 90%);
+}
+.stopwatch{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%,0.75);
+  margin-bottom: 25px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+.start-button{
+  background-color: hsl(115, 100%, 40%);
+}
+.start-button:hover{
+  background-color: hsl(115, 100%, 35%);
+}
+.stop-button{
+  background-color: hsl(10, 90%, 50%);
+}
+.stop-button:hover{
+  background-color: hsl(10, 90%, 45%);
+}
+.reset-button{
+  background-color: hsl(205, 90%, 60%);
+}
+.reset-button:hover{
+  background-color: hsl(205, 90%, 55%);
+}
+.card{
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   max-width: 250px;
+  }
+.card img{
+  max-width: 70%;
+  height: auto;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+.card h2{
+  font-family: Arial,sans-serif;
+  margin: 0;
+  color: rgb(86, 208, 248);
+}
+.card p{
+  font-family: Arial,sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.student{
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome-message{
+  font-size: 2.5em;
+  background-color: rgb(65, 236, 65);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: rgb(198, 21, 21);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-categories{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsla(0, 0%, 20%);
+  text-align: center;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: hsl(185, 100%, 50%);
+}
+.list-items li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover{
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+
+.main
+{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.couter-display{
+  font-size: 4em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.couter-bt{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: aqua;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 30px;
+  transition: 0.25s ease;
+}
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.car-container{
+  border: 2px solid black;
+  text-align: center;
+}
+.lFood{
+  cursor: pointer;
+}
+.box{
+  border: 3px solid;
+  padding: 25px;
+}
